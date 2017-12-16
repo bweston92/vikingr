@@ -133,7 +133,6 @@ func fixBranch(ctx context.Context, gh *github.Client, r *github.Repository, b s
 }
 
 func getDismissalRestrictionsRequestForExistingProtection(p *github.Protection) *github.DismissalRestrictionsRequest {
-
 	if p.Restrictions != nil {
 		u := make([]string, len(p.Restrictions.Users))
 		t := make([]string, len(p.Restrictions.Teams))
