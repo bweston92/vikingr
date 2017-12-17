@@ -1,4 +1,4 @@
-# vickingr
+# vikingr
 
 Handles organisation repositories to make sure their protected and require pull requests.
 
