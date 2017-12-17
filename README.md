@@ -19,7 +19,7 @@ I currently have this project to ensure the rules I prefer, but if anyone wants 
 - [ ] Different rules based on repository name etc (reads yaml file or similar)
 - [ ] Ability to have different protection rules.
 - [ ] Ability to run on a WebHook.
-- [ ] Ability to run in a periodically.
+- [x] Ability to run in a periodically.
 - [ ] Add metric instrumentation.
 
 # License
