@@ -7,4 +7,5 @@ RUN go build -x -o /tmp/vikingr
 
 FROM alpine:3.6
 COPY --from=0 /tmp/vikingr /usr/bin/vikingr
-ENTRYPOINT ["/usr/bin/vikingr"]
+COPY docker-entrypoint.sh /usr/bin/docker-entrypoint.sh
+ENTRYPOINT ["/usr/bin/docker-entrypoint.sh"]
